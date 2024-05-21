@@ -1,0 +1,21 @@
+public class Personagem {
+    protected String nome;
+    protected int hp;
+    protected int poder;
+
+    public Personagem(String nome, int hp, int poder) {
+        this.nome = nome;
+        this.hp = hp;
+        this.poder = poder;
+    }
+
+    public void atacar() {
+        System.out.println(nome + " ataca com poder " + poder);
+    }
+
+    public void defender() {
+        System.out.println(nome + " está se defendendo");
+    }
+
+    // Getters e setters
+}
