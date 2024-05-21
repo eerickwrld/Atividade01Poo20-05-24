@@ -1,0 +1,15 @@
+public class Goku extends Personagem {
+    private String habilidadeEspecial;
+
+    public Goku(int hp, int poder) {
+        super("Goku", hp, poder);
+        this.habilidadeEspecial = "Kamehameha";
+    }
+
+    @Override
+    public void atacar() {
+        super.atacar();
+        System.out.println(nome + " usa " + habilidadeEspecial);
+    }
+}
+
