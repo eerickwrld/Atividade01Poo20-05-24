@@ -1,0 +1,18 @@
+public class TesteDragonBallFighterZ {
+    public static void main(String[] args) {
+        Goku goku = new Goku(1000, 300);
+        Vegeta vegeta = new Vegeta(900, 350);
+
+        System.out.println("Teste de Ataque de Goku:");
+        goku.atacar();
+
+        System.out.println("\nTeste de Defesa de Goku:");
+        goku.defender();
+
+        System.out.println("\nTeste de Ataque de Vegeta:");
+        vegeta.atacar();
+
+        System.out.println("\nTeste de Defesa de Vegeta:");
+        vegeta.defender();
+    }
+}
