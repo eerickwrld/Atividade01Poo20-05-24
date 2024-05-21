@@ -1,0 +1,14 @@
+public class Vegeta extends Personagem {
+    private String habilidadeEspecial;
+
+    public Vegeta(int hp, int poder) {
+        super("Vegeta", hp, poder);
+        this.habilidadeEspecial = "Galick Gun";
+    }
+
+    @Override
+    public void atacar() {
+        super.atacar();
+        System.out.println(nome + " usa " + habilidadeEspecial);
+    }
+}
